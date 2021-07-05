@@ -1,27 +1,27 @@
-package pattern;
+package com.pattern;
 
-public class Pattern4 {
+public class Pattern11 {
 	public static void main(String[] args){
-		int tempNum=0;
+		int tempNum=4;
 		for(int i=0;i<5;i++)
 		{
-			for(int k=0;k<tempNum;k++)
+			for(int k=4;k>tempNum;k--)
 			{
 				System.out.print(" ");
 			}
-			for(int j=0;j<5-tempNum;j++)
+			for(int j=0;j<5;j++)
 			{
 				System.out.print("*");
 			}
-			tempNum++;
+			tempNum--;
 			System.out.print("\n");
 		}
 	}
 }
 /*
 *****
- ****
-  ***
-   **
-    *
+ *****
+  *****
+   *****
+    *****
 */

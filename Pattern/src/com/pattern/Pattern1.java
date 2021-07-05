@@ -1,23 +1,22 @@
-package pattern;
-
-public class Pattern3 {
+package com.pattern;
+public class Pattern1{
 	public static void main(String[] args){
-		int tempNum=5;
+		int tempNum=1;
 		for(int i=0;i<5;i++)
 		{
 			for(int j=0;j<tempNum;j++)
 			{
 				System.out.print("*");
 			}
-			tempNum--;
+			tempNum++;
 			System.out.print("\n");
 		}
 	}
 }
 /*
-*****
-****
-***
-**
 *
+**
+***
+****
+*****
 */

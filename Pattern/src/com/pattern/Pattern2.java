@@ -1,6 +1,6 @@
-package pattern;
+package com.pattern;
 
-public class Pattern10 {
+public class Pattern2 {
 	public static void main(String[] args){
 		int tempNum=4;
 		for(int i=0;i<5;i++)
@@ -9,7 +9,7 @@ public class Pattern10 {
 			{
 				System.out.print(" ");
 			}
-			for(int j=0;j<5;j++)
+			for(int j=0;j<5-tempNum;j++)
 			{
 				System.out.print("*");
 			}
@@ -19,9 +19,9 @@ public class Pattern10 {
 	}
 }
 /*
-    *****
-   *****
-  *****
- *****
+    *
+   **
+  ***
+ ****
 *****
 */

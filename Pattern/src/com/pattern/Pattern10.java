@@ -1,11 +1,11 @@
-package pattern;
+package com.pattern;
 
-public class Pattern11 {
+public class Pattern10 {
 	public static void main(String[] args){
 		int tempNum=4;
 		for(int i=0;i<5;i++)
 		{
-			for(int k=4;k>tempNum;k--)
+			for(int k=0;k<tempNum;k++)
 			{
 				System.out.print(" ");
 			}
@@ -19,9 +19,9 @@ public class Pattern11 {
 	}
 }
 /*
-*****
- *****
-  *****
-   *****
     *****
+   *****
+  *****
+ *****
+*****
 */

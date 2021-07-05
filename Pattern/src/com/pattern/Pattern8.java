@@ -1,4 +1,4 @@
-package pattern;
+package com.pattern;
 public class Pattern8 {
 	public static void main(String[] args){
 		int tempNum1=1,tempNum2=4;

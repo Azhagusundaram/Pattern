@@ -1,6 +1,6 @@
-package pattern;
+package com.pattern;
 
-public class Pattern14 {
+public class Pattern13 {
 	public static void main(String[] args){
 		int tempNum1=5,tempNum2=0;
 		for(int i=0;i<5;i++)
@@ -11,7 +11,7 @@ public class Pattern14 {
 			}
 			for(int k=0;k<tempNum1;k++)
 			{
-				System.out.print("* ");
+				System.out.print("*");
 			}
 			tempNum2++;
 			tempNum1--;
@@ -27,7 +27,7 @@ public class Pattern14 {
 			}
 			for(int k=0;k<tempNum1;k++)
 			{
-				System.out.print("* ");
+				System.out.print("*");
 			}
 			tempNum2--;
 			tempNum1++;
@@ -36,13 +36,13 @@ public class Pattern14 {
 	}
 }
 /*
-* * * * * 
- * * * * 
-  * * * 
-   * * 
-    * 
-   * * 
-  * * * 
- * * * * 
-* * * * * 
+*****
+ ****
+  ***
+   **
+    *
+   **
+  ***
+ ****
+*****
 */
